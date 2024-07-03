@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,21 @@
 		E2ED27A82C35F6A8009E919B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2ED27AB2C35F6A8009E919B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E2ED27B62C35F7E6009E919B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MultiPhotoPicker.swift,
+				SinglePhotoPicker.swift,
+			);
+			target = E2ED27A02C35F6A6009E919B /* PhotoPickerDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E2ED27B22C35F7AB009E919B /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E2ED27B62C35F7E6009E919B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E2ED279E2C35F6A6009E919B /* Frameworks */ = {
@@ -51,6 +66,7 @@
 		E2ED27A32C35F6A6009E919B /* PhotoPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E2ED27B22C35F7AB009E919B /* Views */,
 				E2ED27A42C35F6A6009E919B /* PhotoPickerDemoApp.swift */,
 				E2ED27A62C35F6A6009E919B /* ContentView.swift */,
 				E2ED27A82C35F6A8009E919B /* Assets.xcassets */,
