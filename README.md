@@ -42,6 +42,23 @@ The `MultiPhotoPicker` view allows users to pick multiple images from their phot
 
 ## Code Overview
 
+### PhotoPickerDemoApp
+
+`PhotoPickerDemoApp` is the entry point of the app.
+
+```swift
+import SwiftUI
+
+@main
+struct PhotoPickerDemoApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+```
+
 ### ContentView
 
 `ContentView` sets up a `TabView` with two tabs: one for the single photo picker and one for the multiple photo picker.
@@ -66,23 +83,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-}
-```
-
-### PhotoPickerDemoApp
-
-`PhotoPickerDemoApp` is the entry point of the app.
-
-```swift
-import SwiftUI
-
-@main
-struct PhotoPickerDemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
 }
 ```
 
