@@ -9,8 +9,7 @@ PhotoPickerDemo is a SwiftUI application that demonstrates how to implement both
 
 ## Screenshots
 
-![Single Photo Picker](screenshots/single_photo_picker.png)
-![Multiple Photo Picker](screenshots/multi_photo_picker.png)
+![PhotoPickerDemo](screenshots/demo.gif)
 
 ## Requirements
 
