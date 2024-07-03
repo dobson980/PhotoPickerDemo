@@ -1,4 +1,3 @@
-```markdown
 # PhotoPickerDemo
 
 PhotoPickerDemo is a SwiftUI application that demonstrates how to implement both single and multiple photo pickers using `PhotosUI`. This app allows users to select images from their photo library and display them within the app.
