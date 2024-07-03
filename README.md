@@ -22,7 +22,7 @@ PhotoPickerDemo is a SwiftUI application that demonstrates how to implement both
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PhotoPickerDemo.git
+   git clone https://github.com/dobson980/PhotoPickerDemo.git
    ```
 2. Open the project in Xcode:
    ```bash
